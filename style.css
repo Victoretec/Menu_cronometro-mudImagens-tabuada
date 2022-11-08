@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    height: 100%;
+}
+
+body {
+    font-family: verdana;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#525252, #2e2a58);
+}
+
+.btnmenu {
+    background: linear-gradient(#525252, #000000);
+    border-radius: 10px 10px 0 0;
+    border: none;
+    height: 40px;
+    width: 120px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+article{
+    padding-left: 19px;
+}
+section{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+div {
+    height: 350px;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 10px 10px rgb(36, 36, 36);
+}
+
+#divInicial {
+    background-color: #ccc; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#divCronometro {
+    background-color: #223158;
+    display: none;
+}
+
+#divSlide {
+    background-color: #6b6b6b;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#divTabuada {
+    background-color: #1c1c1c;
+    display: none;
+    color: #fff;
+}
+#txtnum{
+    width: 100%;
+    height: 60%;
+    font-size: 20pt;
+    color: #070707;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#divTabuada p{
+    /* text-align: center; */  
+    padding-top: 10px;
+    padding-left: 48px;
+}
+
+#prox{
+    border-radius: 10px;
+    padding: 5px ;
+    cursor: pointer;
+}
+#ant{
+    border-radius: 10px;
+    padding: 5px ;
+    cursor: pointer;
+}
+#pausar{
+    border-radius: 10px;
+    background-color: rgb(251, 255, 0);
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+}
+
+#parar{
+    border-radius: 10px;
+    background-color: rgb(255, 14, 14);
+    width: 100px;
+    height: 40px;
+    /* margin: 0px; */
+}
+
+#iniciar{
+    border-radius: 10px;
+    background-color: rgb(15, 97, 3);
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+}
